@@ -2,12 +2,13 @@
 	padding:5px;
 	position: relative;
 	float: left;
+	justify-content: center;
 }
 
 .container {
 	border: 2px solid black;
 	border-radius: 15px;
-	margin: 100px;
+	justify-content: center;
 	box-shadow: 6px 4px 100px 10px black;
 	background: #000000;
 	background: linear-gradient(32deg, rgba(0, 0, 0, 1) 0%,
@@ -19,21 +20,21 @@
 	margin-left: 245px
 }
 
-input[name='button_o']:hover {
+.base:hover {
 	background-color:#373F4F;
 	border:2px solid #373F4F;
 }
 
-input[name='button_o']:focus {
+.base:focus {
 	background-color:#373F4F;
 	border:2px solid #9AAACC;
 }
 
-input[name='button_o']:active {
+.base:active {
 	background-color: #373F4F;
 }
 
-input[name='button_o']:disabled {
+.base:disabled {
 	background-color: #E5EFFF;
 	border:2px solid #E5EFFF;
 }
@@ -48,27 +49,26 @@ input[name='button_o']:disabled {
     height: 40px;
 }
 
-input[name='button2']:hover,
+.button:hover,
 .hover {
     background-color: #373F4F;
     border: 2px solid #373F4F;
 }
 
-input[name='button3']:focus,
+.button[name='button3']:focus,
 .focus {
     background-color: #373F4F;
     border: 2px solid #9AAACC;
 }
 
-input[name='button4']:active, 
+.button[name='button4']:active, 
 .active {
     background-color: #373F4F;
 	border: 2px solid #373F4F;
 }
 
-input[name='button5']:disabled,
+.button[name='button5']:disabled,
 .disabled {
     background-color: #E5EFFF;
     border: 2px solid #E5EFFF
 }
-
