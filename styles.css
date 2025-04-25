@@ -1,9 +1,9 @@
 .container {
 	margin: 0 auto;
-	width: 800px;
+	width: min(100%,800px);
 	border: 2px solid black;
 	border-radius: 15px;
-	padding-top: 60px;
+	padding-top: 30px;
     display: flex;
 	justify-content: center; 
 	box-shadow: 6px 4px 100px 10px black;
@@ -14,18 +14,18 @@
 }
 
 .box1 {
-	height: 40px;
-	position: relative;
-	left: 351.5px;
-	bottom: 40px;
-    display: flex;
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 8px;
+	gap: 8px;
 }
 
 .box2 {
+	width: 100%;
+ 	display: inline-block;
 	padding-top: 10px;
-	padding-right: 100px;
+	padding-right: 10px;
 	padding-bottom: 40px;
-    display: flex;
 	gap: 8px;
 }
 
