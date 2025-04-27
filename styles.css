@@ -132,6 +132,10 @@ label {
 
 .label2{
 	color: #535C6F;
+	position: relative;
+	flex-wrap: initial;
+	display: flex;
+	bottom: 22px
 }
 
 .base2:hover::placeholder {
@@ -186,10 +190,12 @@ input::placeholder {
 }
 
 span {
-	align-items: center;
-    justify-content: center;
 	left: 200px;
-	position: absolute;
+	bottom: 30px;
+	position: relative;
+	flex-wrap: initial;
+	display: flex;
+	
 }
 
 input:valid + .validity-icon::before {
