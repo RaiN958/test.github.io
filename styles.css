@@ -208,6 +208,6 @@ span {
 input:valid + .validity-icon::before {
 	width: 100px;
 	border-radius: 50%;
-	content: url(images/check.svg);
+	content: url(check.svg);
 	background-color: #535C6F;
 }
