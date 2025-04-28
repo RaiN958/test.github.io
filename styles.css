@@ -206,7 +206,7 @@ span {
 }
 
 input:invalid + .validity-icon::after {
-	content: url(images/close.svg);
+	content: url(close.svg);
 	width: 100px;
     border-radius: 50%;
 	border: 1px solid #535C6F;
@@ -215,7 +215,7 @@ input:invalid + .validity-icon::after {
 input:valid + .validity-icon::after{
 	width: 100px;
     border-radius: 50%;
-	content: url(images/check.svg);
+	content: url(check.svg);
 	background-color: #535C6F;
 }
 
