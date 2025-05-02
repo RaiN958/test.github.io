@@ -93,13 +93,11 @@ body{font-family: Roboto;}
 }
 
 .container2 {
-	position: relative;
 	margin: 30px auto; 
 	width: min(100%,800px);
 	border: 2px solid black;
 	border-radius: 30px;
 	box-shadow: 6px 4px 100px 10px black;
-	background: #ffffff;
 	background: linear-gradient(32deg,rgba(255, 255, 255, 1) 0%,
 	rgba(129, 176, 219, 1) 51%, 
 	rgba(83, 178, 237, 1) 81%);
@@ -118,12 +116,7 @@ body{font-family: Roboto;}
 	flex-wrap: wrap;
 	margin-left: 20px;
 	padding-top: 10px;
-	gap: 4px;
-}
-
-.place {
-	height: 80px ;
-	width: 248px ;
+	gap: 10px;
 }
 
 label {
@@ -143,7 +136,7 @@ label {
 }
 
 .label2 {
-	margin-top: 53px;
+	margin-top: 13px;
 	font-size: 12px;
 	line-height: 16px;
 	size: 12px;
@@ -168,15 +161,6 @@ label {
 
 .base2:disabled {
 	background-color: #E5EFFF;
-}
-
-.inpt {
-	z-index: 1;
-	position: absolute;
-	border-radius: 4px;
-	padding: 8px 12px;
-	border: 1px solid #535C6F;
-	outline: 0 solid white;
 }
 
 input::placeholder {
@@ -212,17 +196,22 @@ input::placeholder {
 	color: #9AAACC;
 }
 
-span {
-	margin-top: 10px;
-	margin-left: 174px;
-	z-index: 10;
-	position: absolute;
-	display: flex;
-	width: 13px;
-	height: 13px;
+.inpt {
+	border-radius: 4px;
+	padding: 8px 12px;
+	border: 1px solid #535C6F;
+	outline: 0 solid white;
 }
 
-input:invalid + .validity-icon::after {
+.inpt + span {
+	top:10px;
+	right: 24px;
+	position: relative;
+	display: absolute;
+	vertical-align: middle;
+}
+
+.inpt:invalid + span::before {
 	content: url(close.svg);
 	width: 13px;
 	height: 13px;
@@ -230,10 +219,11 @@ input:invalid + .validity-icon::after {
 	border: 1px solid #535C6F;
 }
 
-input:valid + .validity-icon::after{
+.inpt:valid + span::before {
+	position: absolute;
+	content: url(check.svg);
 	width: 13px;
 	height: 13px;
-	content: url(check.svg);
 	background-color: #535C6F;
 	border-radius: 100%;
 	border: 1px solid #535C6F;
