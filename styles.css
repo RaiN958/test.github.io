@@ -212,6 +212,7 @@ input::placeholder {
 }
 
 .inpt:invalid + span::before {
+	position: absolute;
 	content: url(close.svg);
 	width: 13px;
 	height: 13px;
