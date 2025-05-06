@@ -203,12 +203,10 @@ input::placeholder {
 	outline: 0 solid white;
 }
 
-.inpt + span {
-	top:10px;
-	right: 24px;
+.inpt + span{
+	top: 10px;
+	right: 20px;
 	position: relative;
-	display: absolute;
-	vertical-align: middle;
 }
 
 .inpt:invalid + span::before {
@@ -216,7 +214,7 @@ input::placeholder {
 	content: url(close.svg);
 	width: 13px;
 	height: 13px;
-	border-radius: 50%;
+    border-radius: 50%;
 	border: 1px solid #535C6F;
 }
 
@@ -229,5 +227,154 @@ input::placeholder {
 	border-radius: 100%;
 	border: 1px solid #535C6F;
 }
+
+.container3 {
+	margin: 30px auto; 
+	width: min(100%,1000px);
+	border: 2px solid black;
+	border-radius: 30px;
+	background: purple;
+}
+
+.box5{
+	margin-top: 20px;
+	margin-left: 30px;
+	display: flex;
+	gap: 12px;
+	width: 300px;
+	height: 364px;
+}
+
+.box6 {
+	margin-top: 20px;
+	margin-left: 30px;
+	display: flex;
+	gap: 12px;
+	width: 300px;
+	height: 364px;
+}
+
+.box7 {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 30px;
+	display: flex;
+	gap: 12px;
+	width: 300px;
+	height: 364px;
+}
+
+.imagehouse{
+	margin-top: 24px;
+	margin-left: 24px;
+	margin-right: 24px;
+	border-radius: 12px;
+	width: 252px;
+	height: 252px;
+}
+
+.imagehouse1{
+	margin-top: 24px;
+	margin-left: 24px;
+	margin-right: 24px;
+	border-radius: 12px;
+	width: 252px;
+	height: 252px;
+}
+
+.imagehouse2{
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	border-radius: 8px;
+	width: 172px;
+	height: 172px;
+}
+
+.imagehouse3{
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+	border-radius: 6px;
+	width: 88px;
+	height: 88px;
+}
+
+.images{
+	border-radius: 18px;
+	background-color: #FFFFFF;
+	width: 300px;
+	height: 364px;
+}
+
+.images1{
+	border-radius: 18px;
+	background-color: #FFFFFF;
+	width: 300px;
+	height: 364px;
+}
+
+.images2{
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	width: 196px;
+	height: 244px;
+}
+
+.images3{
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	width: 100px;
+	height: 128px;
+}
+
+.textimg{
+	width: 252px;
+	height: 48px;
+	font-size: 20px;
+	margin-left: 24px;
+	margin-top: 24px;
+}
+
+.textimg1 {
+	font-size: 20px;
+	margin-left: 24px;
+	margin-top: 24px;
+}
+
+.textimg2 {
+	width: 172px;
+	height: 32px;
+	font-size: 14px;
+	margin-left: 12px;
+	margin-top: 12px;
+}
+
+.textimg3 {
+	width: 88px;
+	height: 24px;
+	font-size: 10px;
+	margin-left: 6px;
+	margin-top: 6px;
+}
+
+.imagess:hover,
+.hover3 {
+    box-shadow: 2px 1px 10px 4px #0000001A;
+}
+
+.imagess:focus,
+.focus3 {
+    outline: 2px solid #9AAACC;
+}
+
+.bb:hover {
+	box-shadow: 2px 1px 10px 4px #0000001A;
+}
+
+.bb:focus {
+	outline: 4px solid #9AAACC;
+}
+
 
 
