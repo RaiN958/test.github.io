@@ -568,7 +568,7 @@ input::placeholder {
 	gap: 16px;
 }
 
-.t1{
+.t1 {
 	color: white;
 	font-size: 10px;
 	background-color: #19C673;
@@ -576,7 +576,7 @@ input::placeholder {
 	border-radius: 4px;
 }
 
-.t2{
+.t2 {
 	color: white;
 	font-size: 10px;
 	background-color: #005AFD;
