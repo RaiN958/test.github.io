@@ -119,7 +119,7 @@ body{font-family: Roboto;}
 	gap: 10px;
 }
 
-label {
+.label1, .label11 .label2 {
 	color: #1B2230;
 	display: flex;
 	flex-wrap: wrap;
@@ -510,6 +510,219 @@ input::placeholder {
 	outline: 4px solid #9AAACC;
 }
 
+.container4 {
+	margin: 0 auto;
+	width: min(100%,800px);
+	border: 2px solid black;
+	border-radius: 30px;
+	padding-top: 30px;
+	box-shadow: 6px 4px 100px 10px black;
+	background: #000000;
+	background: linear-gradient(32deg, rgba(0, 0, 0, 1) 0%,
+	rgba(129, 176, 219, 1)
+	51%, rgba(83, 178, 237, 1) 81%);
+}
+
+.box9 {
+	margin-left: 30px;
+	margin-top: 10px;
+	display: flex;
+	gap: 20px
+}
+
+.box10 {
+	margin-left: 30px;
+	margin-top: 30px;
+	display: flex;
+	gap: 20px
+}
+
+.card1 {
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	width: 192px;
+}
+
+.card2 {
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	width: 192px;
+}
+
+.card3 {
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	width: 192px;
+}
+
+.card4 {
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	width: 192px;
+}
+
+.tags {
+	justify-self: center;
+	font-size: 14px;
+	display: flex;
+	gap: 16px;
+}
+
+.t1{
+	color: white;
+	font-size: 10px;
+	background-color: #19C673;
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+
+.t2{
+	color: white;
+	font-size: 10px;
+	background-color: #005AFD;
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+
+.cream {
+	margin-top: 32px;
+	margin-bottom: 16px;
+	margin-left: 16px;
+	margin-right: 16px;
+	height: 128px;
+	width: 128px;
+}
+
+.rs {
+	margin: 16px;
+}
+
+.textcard {
+	overflow: hidden;
+	font-size: 14px;
+	width: 160px;
+	height: 60px;
+}
+
+.price {
+	justify-content: center;
+	margin: 16px 16px;
+	display: flex;
+	gap: 10px;
+}
+
+.price1 {
+	padding: 4px 2px;
+	color: #FD33BD;
+	border-radius: 24px;
+	background-color: #EDF1F9;
+}
+
+.price2 {
+	padding: 4px 7px;
+	color: #BDBDBD;
+}
+
+.rating-area {
+	margin-top: 16px;
+	display: flex;
+	color: gold;
+}
+
+.rating-area input {
+	display: none;
+}
+
+.rating-area label {
+	cursor: pointer;
+}
+
+.rating-area label:before {
+	content: '\2605';
+}
+
+.rating-area input:checked ~ label:before {
+	content: '\2605'; 
+	color: black;
+}
+
+.card:hover,
+.hover4 {
+    box-shadow: 2px 1px 10px 4px #0000001A;
+}
+
+.car:focus,
+.focus4 {
+    outline: 2px solid #E5EFFF;
+}
+/**/
+.rs {
+	margin: 12px;
+}
+
+.card5 {
+	height: 266px;
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	width: 156px;
+}
+
+.textcardm {
+	overflow: hidden;
+	font-size: 10px;
+	width: 130px;
+	height: 48px;
+}
+
+.creamm {
+	height: 128px;
+	width: 128px;
+}
+
+.pricem {
+	font-size: 14px;
+	width: 159px;
+	justify-content: center;
+	margin: 1px 8px;
+	display: flex;
+	gap: 10px;
+}
+
+.price1m {
+	padding: 4px 2px;
+	color: #FD33BD;
+	border-radius: 24px;
+	background-color: #EDF1F9;
+}
+
+.price2m {
+	padding: 4px 7px;
+	color: #BDBDBD;
+}
+
+.ratingm {
+	display: flex;
+	color: gold;
+}
+
+.ratingm input {
+	display: none;
+}
+
+.ratingm label {
+	cursor: pointer;
+}
+
+.ratingm label:before {
+	content: '\2605';
+}
+
+.ratingm input:checked ~ label:before {
+	content: '\2605'; 
+	color: black;
+}
+
+/**/
 
 
 
