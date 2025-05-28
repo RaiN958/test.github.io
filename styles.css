@@ -605,9 +605,8 @@ input::placeholder {
 @media (min-width: 905px) {
 .price0 {
 	justify-content: center;
-    margin: 16px 1px;
+    margin: 14px 1px;
     display: flex;
-    gap: 10px;
 }
 } 
 
@@ -693,9 +692,8 @@ input::placeholder {
 @media (max-width: 905px) {
 .price0 {
 	justify-content: center;
-    margin: 16px 1px;
+    margin: 14px 1px;
     display: flex;
-    gap: 10px;
 }
 } 
 
@@ -723,7 +721,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .tags0 {
 	justify-self: center;
 	font-size: 14px;
@@ -732,7 +730,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .t1-0 {
 	color: white;
 	font-size: 10px;
@@ -742,7 +740,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .t2-0 {
 	color: white;
 	font-size: 10px;
@@ -752,7 +750,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .card0 {
 	height: 240px;
 	border-radius: 12px;
@@ -761,7 +759,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .textcard0 {
 	overflow: hidden;
 	font-size: 10px;
@@ -770,25 +768,24 @@ input::placeholder {
 }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .cream0 {
 	margin: 0 auto;
     max-width: 100%;
 }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .price0 {
 	font-size: 14px;
 	width: 159px;
 	justify-content: center;
-	margin: 1px 8px;
 	display: flex;
 	gap: 3px;
 }
 } 
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .price1-0 {
 	padding: 4px 8px;
 	color: #FD33BD;
@@ -797,14 +794,14 @@ input::placeholder {
 }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .price2-0 {
 	padding: 4px 7px;
 	color: #BDBDBD;
 }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 320px) {
 .rating-area0 {
 	margin: 0 auto;
 	display: flex;
@@ -923,7 +920,6 @@ input::placeholder {
 	justify-content: center;
 	margin: 16px 1px;
 	display: flex;
-	gap: 10px;
 }
 
 .price1 {
@@ -988,9 +984,7 @@ input::placeholder {
 	font-size: 14px;
 	width: 159px;
 	justify-content: center;
-	margin: 1px 8px;
 	display: flex;
-	gap: 3px;
 }
 
 .price1m {
