@@ -523,6 +523,12 @@ input::placeholder {
 	51%, rgba(83, 178, 237, 1) 81%);
 }
 
+.box8 {
+	margin-left: 30px;
+	display: flex;
+	
+}
+
 .box9 {
 	margin-left: 30px;
 	margin-top: 10px;
@@ -536,6 +542,301 @@ input::placeholder {
 	display: flex;
 	gap: 20px
 }
+/**/
+.rs0 {
+	margin: 12px;
+}
+
+@media (min-width: 905px) {
+.tags0 {
+	justify-self: center;
+	font-size: 14px;
+	display: flex;
+	gap: 16px;
+}
+}
+
+@media (min-width: 905px) {
+.t1-0 {
+	color: white;
+	font-size: 10px;
+	background-color: #19C673;
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+}
+
+@media (min-width: 905px) {
+.t2-0 {
+	color: white;
+	font-size: 10px;
+	background-color: #005AFD;
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+}
+
+@media (min-width: 905px) {
+.card0 {
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	width: 192px;
+}
+}
+
+@media (min-width: 905px) {
+.textcard0 {
+	overflow: hidden;
+	font-size: 14px;
+	width: 160px;
+	height: 60px;
+}
+}
+
+@media (min-width: 905px) {
+.cream0 {
+	margin-top: 32px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    max-width: 100%;
+}
+}
+
+@media (min-width: 905px) {
+.price0 {
+	justify-content: center;
+    margin: 16px 1px;
+    display: flex;
+    gap: 10px;
+}
+} 
+
+@media (min-width: 905px) {
+.price1-0 {
+	padding: 4px 12px;
+	color: #FD33BD;
+	border-radius: 24px;
+	background-color: #EDF1F9;
+}
+}
+
+@media (min-width: 905px) {
+.price2-0 {
+	padding: 4px 7px;
+	color: #BDBDBD;
+}
+}
+
+@media (min-width: 905px) {
+.rating-area0 {
+	margin-top: 16px;
+	display: flex;
+	color: gold;
+}
+} 
+
+@media (max-width: 905px) {
+.tags0 {
+	justify-self: center;
+	font-size: 14px;
+	display: flex;
+	gap: 16px;
+}
+}
+
+@media (max-width: 905px) {
+.t1-0 {
+	color: white;
+	font-size: 10px;
+	background-color: #19C673;
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+}
+
+@media (max-width: 905px) {
+.t2-0 {
+	color: white;
+	font-size: 10px;
+	background-color: #005AFD;
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+}
+
+@media (max-width: 905px) {
+.card0 {
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	width: 192px;
+}
+}
+
+@media (max-width: 905px) {
+.textcard0 {
+	overflow: hidden;
+	font-size: 14px;
+	width: 160px;
+	height: 60px;
+}
+}
+
+@media (max-width: 905px) {
+.cream0 {
+	margin-top: 32px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    max-width: 100%;
+}
+}
+
+@media (max-width: 905px) {
+.price0 {
+	justify-content: center;
+    margin: 16px 1px;
+    display: flex;
+    gap: 10px;
+}
+} 
+
+@media (max-width: 905px) {
+.price1-0 {
+	padding: 4px 12px;
+	color: #FD33BD;
+	border-radius: 24px;
+	background-color: #EDF1F9;
+}
+}
+
+@media (max-width: 905px) {
+.price2-0 {
+	padding: 4px 7px;
+	color: #BDBDBD;
+}
+}
+
+@media (max-width: 905px) {
+.rating-area0 {
+	margin-top: 16px;
+	display: flex;
+	color: gold;
+}
+}
+
+@media (max-width: 320px) {
+.tags0 {
+	justify-self: center;
+	font-size: 14px;
+	display: flex;
+	gap: 16px;
+}
+}
+
+@media (max-width: 320px) {
+.t1-0 {
+	color: white;
+	font-size: 10px;
+	background-color: #19C673;
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+}
+
+@media (max-width: 320px) {
+.t2-0 {
+	color: white;
+	font-size: 10px;
+	background-color: #005AFD;
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+}
+
+@media (max-width: 320px) {
+.card0 {
+	height: 240px;
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	width: 156px;
+}
+}
+
+@media (max-width: 320px) {
+.textcard0 {
+	overflow: hidden;
+	font-size: 10px;
+	width: 130px;
+	height: 48px;
+}
+}
+
+@media (max-width: 320px) {
+.cream0 {
+	margin: 0 auto;
+    max-width: 100%;
+}
+}
+
+@media (max-width: 320px) {
+.price0 {
+	font-size: 14px;
+	width: 159px;
+	justify-content: center;
+	margin: 1px 8px;
+	display: flex;
+	gap: 3px;
+}
+} 
+
+@media (max-width: 320px) {
+.price1-0 {
+	padding: 4px 8px;
+	color: #FD33BD;
+	border-radius: 24px;
+	background-color: #EDF1F9;
+}
+}
+
+@media (max-width: 320px) {
+.price2-0 {
+	padding: 4px 7px;
+	color: #BDBDBD;
+}
+}
+
+@media (max-width: 320px) {
+.rating-area0 {
+	margin: 0 auto;
+	display: flex;
+	color: gold;
+}
+}
+/**********/
+.rating-area0 input {
+	display: none;
+}
+
+.rating-area0 label:before {
+	content: '\2605';
+}
+
+.card0:hover  {
+	color: #535C6F;
+}
+
+.card0:focus {
+	color: #535C6F;
+}
+
+.card0:hover {
+    box-shadow: 2px 1px 10px 4px #0000001A;
+}
+
+.card0:focus {
+    outline: 2px solid #E5EFFF;
+}
+
+/**/
 
 .card1 {
 	border-radius: 12px;
@@ -568,7 +869,7 @@ input::placeholder {
 	gap: 16px;
 }
 
-.t1 {
+.t1{
 	color: white;
 	font-size: 10px;
 	background-color: #19C673;
@@ -576,7 +877,7 @@ input::placeholder {
 	border-radius: 4px;
 }
 
-.t2 {
+.t2{
 	color: white;
 	font-size: 10px;
 	background-color: #005AFD;
@@ -587,10 +888,8 @@ input::placeholder {
 .cream {
 	margin-top: 32px;
 	margin-bottom: 16px;
-	margin-left: 16px;
 	margin-right: 16px;
-	height: 128px;
-	width: 128px;
+	max-width: 100%;
 }
 
 .rs {
@@ -604,15 +903,31 @@ input::placeholder {
 	height: 60px;
 }
 
+.textcardh {
+	color: #535C6F;
+	overflow: hidden;
+	font-size: 14px;
+	width: 160px;
+	height: 60px;
+}
+
+.textcardf {
+	color: #535C6F;
+	overflow: hidden;
+	font-size: 14px;
+	width: 160px;
+	height: 60px;
+}
+
 .price {
 	justify-content: center;
-	margin: 16px 16px;
+	margin: 16px 1px;
 	display: flex;
 	gap: 10px;
 }
 
 .price1 {
-	padding: 4px 2px;
+	padding: 4px 12px;
 	color: #FD33BD;
 	border-radius: 24px;
 	background-color: #EDF1F9;
@@ -633,17 +948,8 @@ input::placeholder {
 	display: none;
 }
 
-.rating-area label {
-	cursor: pointer;
-}
-
 .rating-area label:before {
 	content: '\2605';
-}
-
-.rating-area input:checked ~ label:before {
-	content: '\2605'; 
-	color: black;
 }
 
 .card:hover,
@@ -651,7 +957,7 @@ input::placeholder {
     box-shadow: 2px 1px 10px 4px #0000001A;
 }
 
-.car:focus,
+.card:focus,
 .focus4 {
     outline: 2px solid #E5EFFF;
 }
@@ -661,7 +967,7 @@ input::placeholder {
 }
 
 .card5 {
-	height: 266px;
+	height: 240px;
 	border-radius: 12px;
 	background-color: #FFFFFF;
 	width: 156px;
@@ -675,8 +981,7 @@ input::placeholder {
 }
 
 .creamm {
-	height: 128px;
-	width: 128px;
+	max-width: 100%; 
 }
 
 .pricem {
@@ -685,11 +990,11 @@ input::placeholder {
 	justify-content: center;
 	margin: 1px 8px;
 	display: flex;
-	gap: 10px;
+	gap: 3px;
 }
 
 .price1m {
-	padding: 4px 2px;
+	padding: 4px 8px;
 	color: #FD33BD;
 	border-radius: 24px;
 	background-color: #EDF1F9;
@@ -709,19 +1014,9 @@ input::placeholder {
 	display: none;
 }
 
-.ratingm label {
-	cursor: pointer;
-}
-
 .ratingm label:before {
 	content: '\2605';
 }
-
-.ratingm input:checked ~ label:before {
-	content: '\2605'; 
-	color: black;
-}
-
 /**/
 
 
