@@ -723,7 +723,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .tags0 {
 	justify-self: center;
 	font-size: 14px;
@@ -732,7 +732,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .t1-0 {
 	color: white;
 	font-size: 10px;
@@ -742,7 +742,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .t2-0 {
 	color: white;
 	font-size: 10px;
@@ -752,7 +752,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .card0 {
 	height: 240px;
 	border-radius: 12px;
@@ -761,7 +761,7 @@ input::placeholder {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .textcard0 {
 	overflow: hidden;
 	font-size: 10px;
@@ -770,14 +770,14 @@ input::placeholder {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .cream0 {
 	margin: 0 auto;
     max-width: 100%;
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .price0 {
 	font-size: 14px;
 	width: 159px;
@@ -788,7 +788,7 @@ input::placeholder {
 }
 } 
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .price1-0 {
 	padding: 4px 8px;
 	color: #FD33BD;
@@ -797,14 +797,14 @@ input::placeholder {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .price2-0 {
 	padding: 4px 7px;
 	color: #BDBDBD;
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
 .rating-area0 {
 	margin: 0 auto;
 	display: flex;
