@@ -1545,23 +1545,23 @@ input::placeholder {
 	background-color: #E5EFFF;
 }
 
-.s {
+.search-main {
 	gap: 12px;
 	display: flex;
 }
 
-.qwe {
+.user-main {
 	position: relative;
 	gap: 16px;
 	margin: 4px;
 	display: flex;
 }
 
-.u {
+.user-acc {
 	content: url(user-square-svgrepo-com.svg)
 }
 
-.q {
+.number-positions {
 	left:  58px;
 	bottom: 15px;
 	padding: 1px;
@@ -1576,7 +1576,7 @@ input::placeholder {
 	position: absolute;
 }
 
-.b {
+.basket-positions {
 	content: url(shopping-basket-svgrepo-com.svg)
 }
 /**/
